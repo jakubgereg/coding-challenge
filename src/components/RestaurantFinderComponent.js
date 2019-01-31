@@ -39,7 +39,7 @@ export default class RestaurantFinderComponent extends Component {
     if (!city) {
       this.setState({ restaurants: [] });
     } else {
-      fetch(`http://opentable.herokuapp.com/api/restaurants?city=${city}`).then(response => response.json()).then(data => this.setState({ restaurants: data.restaurants }))
+      fetch(`https://opentable.herokuapp.com/api/restaurants?city=${city}`).then(response => response.json()).then(data => this.setState({ restaurants: data.restaurants }))
     }
   }
 }
