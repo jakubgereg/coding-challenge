@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #14B9A2;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  color: #fdf9f9;
+  text-align: center;
+}
+
+.city-input-wrapper {
+  font-size: 20px;
+  margin: 30px 0px;
+}
+
+.city-input-wrapper span {
+  padding-right: 5px;
+  vertical-align: middle
+}
+
+.rest-wrapper {
+  padding: 15px;
+  border-top: 1px solid #FBA851;
+  display: block;
+}
+
+.rest-wrapper span {
+  padding-right: 5px;
+  font-weight: bold;
+}
